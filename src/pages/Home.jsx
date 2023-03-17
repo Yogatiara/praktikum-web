@@ -1,10 +1,11 @@
-import NavBar from "../components/navBar";
-import SliderAvailableFacilities from "../components/sliderAvailableFacilities";
+import NavBar from "../components/NavBar";
+import SliderFacilities from "../components/SliderFacilities";
 import Chevron from "react-chevron";
 
 
 
-const landingPages = () => {
+
+const Home = () => {
     return (
         <>  
             <div className="bg-[#F0F0F0] h-full">
@@ -38,7 +39,7 @@ const landingPages = () => {
                     </div>
 
                     <div className="pt-20 ">
-                        <SliderAvailableFacilities />
+                        <SliderFacilities />
                        
                     </div>
                     
@@ -55,4 +56,4 @@ const landingPages = () => {
 }
 
 
-export default landingPages;
+export default Home;

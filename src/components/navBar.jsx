@@ -1,6 +1,6 @@
 
 
-const navBar = () => {
+const NavBar = () => {
     return (
         <>
             <nav className="bg-[#B9D6F2] border-gray-200 bg-opacity-80 fixed w-full px-2 sm:px-4 py-2.5  dark:bg-gray-900">
@@ -81,6 +81,6 @@ const navBar = () => {
     )
 }
 
-export default navBar;
+export default NavBar;
 
 

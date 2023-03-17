@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import LandingPages from './pages/landingPages'
+import Home from './pages/Home'
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <LandingPages />
+      <Home />
 
     </>
   )
